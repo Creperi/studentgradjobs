@@ -22,7 +22,7 @@ export default function ResultsPage() {
 
     return (
         <div>
-            <Stack direction="row" spacing={2} sx={{pt: 2, px:16}}>
+            <Stack direction="row" spacing={2} sx={{pt: 2, px:2}}>
                 <TextField
                     id="JobSearch"
                     label="Outlined"
