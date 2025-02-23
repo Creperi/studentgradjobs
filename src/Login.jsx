@@ -9,9 +9,7 @@ import {IconButton} from "@mui/material";
 
 export default function Login() {
     return(
-        <Box sx={{ justifyContent="center",
-            alignItems="center"
-        }}>
+        <Box>
             <Stack spacing={2}>
                 <TextField id="outlined-basic" label="Username" variant="outlined" />
                 <TextField id="outlined-basic" label="Password" type="password" variant="outlined" />
