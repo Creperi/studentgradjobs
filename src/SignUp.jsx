@@ -9,7 +9,20 @@ import {IconButton} from "@mui/material";
 
 export default function Login() {
     return(
-        <Box>
+        <Box
+            display="flex"
+            justifyContent="center"
+            alignItems="center"
+            height="100vh" // Centers vertically on the viewport
+        >
+        <Box sx={{
+            py: 2,
+            px: 3,
+            width: "300px", // Adjust width for better responsiveness
+            boxShadow: 3,
+            borderRadius: 2,
+            bgcolor: "background.paper",
+        }}>
             <Stack spacing={2}>
                 <TextField id="outlined-basic" label="Username" variant="outlined" />
                 <TextField id="outlined-basic" label="Email" type="email" variant="outlined" />
@@ -25,6 +38,7 @@ export default function Login() {
                 </Stack>
 
             </Stack>
+        </Box>
         </Box>
     )
 }
