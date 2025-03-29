@@ -8,7 +8,7 @@ import { Search } from "@mui/icons-material";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 
-export default function ResultsPage() {
+export default function JobListings() {
     const [query, setQuery] = useState("");
     const [filteredListings, setFilteredListings] = useState(Listings);
     const [savedJobs, setSavedJobs] = useState([]);

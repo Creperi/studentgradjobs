@@ -27,7 +27,7 @@ export default function JobListing ({id, JobTitle, Company, Location, ImagePath,
     };
 
     return (
-        <Box sx={{ border: 1, borderRadius: '16px', width: "40%", borderColor: 'gray', p: 2, mb: 2 }}>
+        <Box sx={{ border: 1, borderRadius: '16px', width: "40%", borderColor: 'gray', p: 2, mb: 2,  }}>
             <Stack direction="row">
                 <Box
                     component="img"

@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Signup from "./Signup";
 import Login from "./Login";
 import {AppBar, Toolbar, Typography, Button, ThemeProvider, createTheme} from "@mui/material";
-import ResultsPage from "./ResultsPage";
+import JobListings from "./JobListings.jsx";
 import GraduatesListings from "./GraduatesListings.jsx";
 import "@fontsource/nunito"
 
@@ -37,7 +37,7 @@ export default function App() {
             <div style={{ marginTop: '64px' }}> {/* Adjust to prevent content from being hidden under the AppBar */}
                 <Routes>
 
-                    <Route path="/results" element={<ResultsPage/>}></Route>
+                    <Route path="/results" element={<JobListings/>}></Route>
                     <Route path="/graduates" element={<GraduatesListings />} />
                     <Route path="/signup" element={<Signup />} />
                     <Route path="/login" element={<Login />} />

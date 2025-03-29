@@ -16,7 +16,7 @@ import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
 import { useState } from "react";
 import JobListing from "./JobListing.jsx";
-import PersonListing from "./PersonListing.jsx";
+import UserListing from "./UserListing.jsx";
 
 export default function GraduatesListings() {
     const [gradYear, setGradYear] = useState('');
@@ -48,7 +48,7 @@ export default function GraduatesListings() {
                 {Graduates && Graduates.length > 0 ? (
                     Graduates.map((graduate) => (
                         <ListItem key={graduate.id}>
-                            <PersonListing {...graduate} /> {/* Pass the graduate object as props */}
+                            <UserListing {...graduate} /> {/* Pass the graduate object as props */}
                         </ListItem>
                     ))
                 ) : (

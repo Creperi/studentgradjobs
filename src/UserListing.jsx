@@ -3,7 +3,7 @@ import Stack from "@mui/material/Stack";
 import {Button, Typography} from "@mui/material";
 
 
-export default function PersonListing({Fullname, School, GradYear}) {
+export default function UserListing({Fullname, School, GradYear}) {
     return(
         <Box sx={{ border: 1, borderRadius: '16px', width: "40%", borderColor: 'gray', p: 2, mb: 2 }}>
             <Stack spacing={1}>
